@@ -20,5 +20,8 @@ public class Artist {
 	public String toString() {
 		return "Artist [name=" + name + "]";
 	}
+	public static void main(String args[]){
+		System.out.println((new Artist("Mahuton")).toString());
+	}
 
 }
